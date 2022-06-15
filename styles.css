@@ -133,3 +133,20 @@ button:hover {
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
+
+/* FOOTER */
+
+.footer {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 2rem 7rem;
+    margin: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer button {
+    border: 2px solid #E5E7EB;
+}
