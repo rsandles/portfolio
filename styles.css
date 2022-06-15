@@ -6,6 +6,17 @@ body {
     margin: 0rem;
 }
 
+button {
+    background-color: #3882F6;
+    border: 0px;
+    border-radius: .5rem;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    width: 10rem;
+    height: 3rem;
+}
+
 /* HEADER */
 .header {
     background-color:#1F2937;
@@ -16,12 +27,6 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-
-
-/* .header h1,
-.header p {
-    padding: 1rem 10rem;
-} */
 
 .header h1 {
     font-size: 24px;
@@ -39,4 +44,36 @@ body {
 .header p {
     font-size: 18px;
     color:#E5E7EB;
+}
+
+/* TITLE */
+
+.title {
+    color:#F9FAF8;
+    background-color:#1F2937;
+    margin: 0rem;
+    padding: 3rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+}
+
+.title h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.title .left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.title .right {
+    height: 10rem;
+    border: 3px;
+    background-color: #9b9b9d;
+    flex: 1;
 }
